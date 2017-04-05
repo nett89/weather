@@ -9,7 +9,7 @@ window.onload = updateCity("Toronto");
 var cityWeather = "Toronto";
 var cF = "°C";
 var uOfSpd = "Km/H"
-var apiKey = 183bcd8d4020bdc7781705937d31842d;
+var apiKey = '183bcd8d4020bdc7781705937d31842d';
 /*
   On load function that calls all sub functions for the daily forecast, 3 hour forecast and
   weekly forecast.
