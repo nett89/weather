@@ -1,4 +1,3 @@
-
 /**
   List of sources used:
   learning how to use JSON & creating the table: http://www.w3schools.com/js/js_json_intro.asp
@@ -10,7 +9,7 @@ window.onload = updateCity("Toronto");
 var cityWeather = "Toronto";
 var cF = "°C";
 var uOfSpd = "Km/H"
-var apiKey = config.MY_KEY;
+var apiKey = 183bcd8d4020bdc7781705937d31842d;
 /*
   On load function that calls all sub functions for the daily forecast, 3 hour forecast and
   weekly forecast.
@@ -92,6 +91,7 @@ function retrieveThreeHrForecast(conv)
 }
 /*
   Sends the request to the API to retrieve the data to display the weekly forecast.
+
 */
 function retrieveWeekForecast(conv)
 {
@@ -119,6 +119,7 @@ function retrieveWeekForecast(conv)
 
 /*
   Retrieves from the API, and sets the current weather temperature, condition, wind speed, and humidity.
+
 */
 function printCurrentWeather(weatherObj)
 {
@@ -167,6 +168,7 @@ function printThreeHrForecast(weatherObj)
 
 /**
   This method obtains the weather object for the three hour forecast and proceeds to print it.
+
 */
 function printWeeklyForecast(weatherObj)
 {
